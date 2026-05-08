@@ -1,0 +1,42 @@
+:root {
+    --primary: #8FB3E2;    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+#menu {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: white;
+
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
