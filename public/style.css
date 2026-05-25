@@ -100,7 +100,8 @@
 
 
 :root {
-    --primary: #8FB3E2;
+    --primary: #F5F3D0;
+    --secondary: #519950;
 }
 
 * {
@@ -112,7 +113,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Open Sauce */
 body {
     background-color: var(--primary);
     font-family: "Open Sauce Sans";
@@ -123,8 +123,8 @@ section {
     height: 100vh;
     color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #menu {
@@ -134,6 +134,8 @@ section {
     transform: translateX(-50%);
     display: flex;
     flex-direction: row;
+    align-items: center;
+    text-align: center;
     gap: 12px;
     background-color: white;
 
@@ -147,6 +149,19 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    color: var(--secondary);
+}
+
+#introduction {
+    justify-content: space-between;
+}
+
+#introduction p {
+    font-size: 0.8rem;
+    color: black;
+}
+
 #introduction h1 {
     font-family: "Shantell Sans", cursive;
     font-optical-sizing: auto;
@@ -155,4 +170,50 @@ a {
         "BNCE" 0,
         "INFM" 0,
         "SPAC" 0;
+
+    font-size: 3.2rem;
+}
+
+#introduction img {
+    aspect-ratio: 1/1;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 1vw;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    color: var(--primary);
+    font-size: 0.7rem;   
+    padding: 10px;
+}
+
+footer a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+footer p {
+    display: inline;
+}
+
+div#project-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+#project-info p {
+    width: 20vw;
+    text-align: justify;
 }
