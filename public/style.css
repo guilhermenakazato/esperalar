@@ -1,5 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-300-normal.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-300-italic.woff2") format("woff2");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-400-normal.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-400-italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-500-normal.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-500-italic.woff2") format("woff2");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-600-normal.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-600-italic.woff2") format("woff2");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-700-normal.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-700-italic.woff2") format("woff2");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-800-normal.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-800-italic.woff2") format("woff2");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-900-normal.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("./assets/fonts/open-sauce-sans-latin-900-italic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+}
+
+
 :root {
-    --primary: #8FB3E2;    
+    --primary: #8FB3E2;
 }
 
 * {
@@ -11,14 +112,19 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Open Sauce */
 body {
     background-color: var(--primary);
+    font-family: "Open Sauce Sans";
 }
 
 section {
     width: 100%;
     height: 100vh;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #menu {
@@ -39,4 +145,14 @@ section {
 a {
     color: black;
     text-decoration: none;
+}
+
+#introduction h1 {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 0,
+        "INFM" 0,
+        "SPAC" 0;
 }
