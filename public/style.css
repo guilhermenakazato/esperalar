@@ -100,7 +100,7 @@
 
 
 :root {
-    --primary: #F5F3D0;
+    --primary: #F5F2D0;
     --secondary: #519950;
 }
 
@@ -118,6 +118,43 @@ body {
     font-family: "Open Sauce Sans";
 }
 
+header {
+    height: 10vh;
+    width: calc(100% - 16px);
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+}
+
+header img {
+    aspect-ratio: 1/1;
+    width: 50px;
+    object-fit: cover;
+}
+
+span#title {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "BNCE" 0,
+        "INFM" 0,
+        "SPAC" 0;
+
+    font-size: 1.5rem;
+    color: var(--secondary);
+}
+
 section {
     width: 100%;
     height: 100vh;
@@ -127,21 +164,21 @@ section {
     align-items: center;
 }
 
-#menu {
-    position: fixed;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+#introduction {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: center;
-    gap: 12px;
-    background-color: white;
+    justify-content: space-around;
+}
 
-    padding: 15px;
-    border-radius: 20px;
-    font-weight: bold;
+#introduction img {
+    width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#introduction p {
+    color: black;
+    width: 40vw;   
 }
 
 a {
@@ -153,43 +190,37 @@ h1 {
     color: var(--secondary);
 }
 
-#introduction {
-    justify-content: space-between;
-}
-
-#introduction p {
-    font-size: 0.8rem;
-    color: black;
-}
-
-#introduction h1 {
-    font-family: "Shantell Sans", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "BNCE" 0,
-        "INFM" 0,
-        "SPAC" 0;
-
-    font-size: 3.2rem;
-}
-
-#introduction img {
-    aspect-ratio: 1/1;
-    width: 400px;
-    object-fit: cover;
-    margin-left: 1vw;
-}
-
 footer {
-    width: 100%;
-    height: 30vh;
+    width: calc(100%-20px);
+    height: 10vh;
     background-color: var(--secondary);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     color: var(--primary);
-    font-size: 0.7rem;   
+    font-size: 0.8rem;
     padding: 10px;
+}
+
+footer h1 {
+    color: white;
+}
+
+h1#jor {
+    font-size: 4rem;
+}
+
+h1#ufms {
+    writing-mode: sideways-lr;
+    font-size: 1.2rem;
+    font-weight: 200;
+    display: block;
+}
+
+footer #logo-jor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 footer a {
@@ -203,17 +234,4 @@ footer span {
 
 footer p {
     display: inline;
-}
-
-div#project-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1vw;
-}
-
-#project-info p {
-    width: 20vw;
-    text-align: justify;
 }
