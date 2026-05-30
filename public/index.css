@@ -1,0 +1,32 @@
+#introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#introduction img {
+    width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#introduction p {
+    color: black;
+    width: 40vw;   
+    font-size: 1.2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    row-gap: 8vh;
+    column-gap: 2vw;
+    padding-bottom: 8vh;
+}
+
+.grid img {
+    width: 20vw;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
