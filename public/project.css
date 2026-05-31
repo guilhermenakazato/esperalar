@@ -1,0 +1,27 @@
+section {
+    width: calc(100% - 32px);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#project-info div {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+#project-info p {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#photo-1 {
+    width: 50vw;
+}
+
+#photo-2, #photo-3 {
+    width: 24vw;
+}
