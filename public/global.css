@@ -177,7 +177,7 @@ footer #logo-jor {
     align-items: center;
 }
 
-footer a {
+#email a {
     color: var(--primary);
     text-decoration: underline;
 }
@@ -219,4 +219,17 @@ a {
 
 h1 {
     color: var(--secondary);
+}
+
+figcaption {
+    color: black;
+    text-align: right;
+}
+
+#media a {
+    color: white;
+}
+
+footer svg {
+    fill: var(--primary);
 }

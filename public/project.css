@@ -10,7 +10,7 @@ section {
     display: flex;
     flex-direction: row;
     gap: 2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
 }
 
 #project-info p {
@@ -22,6 +22,10 @@ section {
     width: 50vw;
 }
 
-#photo-2, #photo-3 {
+.photo-half {
     width: 24vw;
+}
+
+img {
+    border-radius: 16px;
 }

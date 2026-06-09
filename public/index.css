@@ -18,15 +18,15 @@
 
 .grid {
     display: grid;
-    grid-template: auto auto auto / auto auto auto;
+    grid-template: auto auto auto auto / auto auto auto auto;
     row-gap: 8vh;
     column-gap: 2vw;
     padding-bottom: 8vh;
 }
 
 .grid img {
-    height: 35vh;
-    width: auto;
+    height: auto;
+    width: 22vw;
     border-radius: 16px;
 }
 
