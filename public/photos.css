@@ -1,0 +1,39 @@
+figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#photos p {
+    color: black;
+    width: 80vw;
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+figcaption span {
+    align-self: flex-end;
+}
+
+figure img {
+    width: 40vw;
+    border-radius: 16px;
+}
+
+#photos {
+    margin-bottom: 2vh;
+}
+
+#photos #images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vh;
+}
+
+#images div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}

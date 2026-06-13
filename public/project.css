@@ -1,31 +1,44 @@
-section {
-    width: calc(100% - 32px);
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#project-info div {
-    display: flex;
+#project-info {
     flex-direction: row;
-    gap: 2vw;
-    margin-bottom: 4vw;
+    padding: 10px;
+    width: calc(100vw - 40px);
+    align-items: start;
+    gap: 10px;
 }
 
-#project-info p {
-    color: black;
-    font-size: 1.2rem;
-}
-
-#photo-1 {
+#project-photos {
+    display: grid;
+    grid-template: auto auto auto auto / 24vw 24vw;
+    gap: 10px;
     width: 50vw;
 }
 
-.photo-half {
-    width: 24vw;
+#project-text {
+    width: 45vw;
+    height: 80vh;
 }
 
-img {
+#project-text p {
+    color: black;
+    font-size: 1.1rem;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+li {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+li span {
+    font-weight: bold;
+}
+
+#project-photos img {
+    width: 24vw;
     border-radius: 16px;
 }
