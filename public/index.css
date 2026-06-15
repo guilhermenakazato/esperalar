@@ -5,7 +5,7 @@
 }
 
 #introduction img {
-    width: 400px;
+    width: 30vw;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -18,10 +18,13 @@
 
 .grid {
     display: grid;
-    grid-template: auto auto auto auto / auto auto auto auto;
-    row-gap: 8vh;
+    grid-template: repeat(4, auto) / repeat(4, auto);
+    row-gap: 2vh;
     column-gap: 2vw;
-    padding-bottom: 8vh;
+}
+
+.grid figure {
+    width: 22vw;
 }
 
 .grid img {
@@ -30,3 +33,43 @@
     border-radius: 16px;
 }
 
+@media only screen and (max-width: 480px) {
+    .grid {
+        grid-template: repeat(8, auto) / auto;
+    }
+    
+    .grid figure {
+        width: 80vw;
+    }
+
+    .grid img {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #introduction {
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    #introduction img {
+        width: 70vw;
+    } 
+    
+    #introduction p {
+        width: 90vw;
+    }
+
+    .grid {
+        grid-template: repeat(4, auto) / repeat(2, auto);
+    }
+
+    .grid figure {
+        width: 40vw;
+    }
+
+    .grid img {
+        width: 40vw;
+    }
+}
