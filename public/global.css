@@ -116,6 +116,8 @@ html {
 body {
     background-color: var(--primary);
     font-family: "Open Sauce Sans";
+    font-style: normal;
+    font-weight: 500;
 }
 
 header {
