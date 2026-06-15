@@ -233,3 +233,34 @@ figcaption {
 footer svg {
     fill: var(--primary);
 }
+
+.fake-grid-lanes {
+    display: block;
+    columns: 30vw;
+    column-gap: 1px;
+    margin: 0 auto;
+    width: 95vw;
+}
+
+.fake-grid-lanes figure {
+    width: 30vw;
+    margin-bottom: 1vh;
+}
+
+.fake-grid-lanes figure img {
+    width: 30vw;
+    border-radius: 16px;
+}
+
+.fake-grid-lanes figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.by {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
