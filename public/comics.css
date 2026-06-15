@@ -1,0 +1,28 @@
+#hq {
+    width: 89vw;
+    margin-bottom: 2vh;
+}
+
+#hq img {
+    width: 89vw;
+}
+
+#small-photos-comics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#small-photos-comics figure {
+    width: 17vw;
+}
+
+#small-photos-comics img {
+    width: 17vw;
+}
+
+img {
+    border-radius: 16px;
+}

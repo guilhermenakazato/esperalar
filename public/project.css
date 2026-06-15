@@ -8,14 +8,13 @@
 
 #project-photos {
     display: grid;
-    grid-template: auto auto auto auto / 24vw 24vw;
+    grid-template: repeat(2, auto) / repeat(2, 24vw);
     gap: 10px;
     width: 50vw;
 }
 
 #project-text {
     width: 45vw;
-    height: 80vh;
 }
 
 #project-text p {
@@ -38,7 +37,30 @@ li span {
     font-weight: bold;
 }
 
+#project-photos figure {
+    width: 24vw;
+}
+
 #project-photos img {
     width: 24vw;
     border-radius: 16px;
+}
+
+@media only screen and (max-width: 700px) {
+    #project-info {
+        flex-direction: column-reverse;
+    }
+
+    #project-text {
+        width: 90vw;
+    }
+
+    #project-photos {
+        width: 90vw;
+        grid-template: repeat(2, auto) / repeat(2, 44vw);
+    }
+
+    #project-photos figure, #project-photos img {
+        width: 44vw;
+    }
 }

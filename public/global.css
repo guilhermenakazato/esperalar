@@ -305,4 +305,8 @@ footer svg {
     footer {
         flex-direction: column;
     }
+
+    #contact {
+        word-break: break-all;
+    }
 }

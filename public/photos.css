@@ -15,6 +15,10 @@ figcaption span {
     align-self: flex-end;
 }
 
+figure {
+    width: 40vw;
+}
+
 figure img {
     width: 40vw;
     border-radius: 16px;
