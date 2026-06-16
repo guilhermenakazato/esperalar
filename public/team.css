@@ -1,8 +1,20 @@
 #team img {
-    height: 30vh;
-    width: auto;
+    width: 15vw;
     border-radius: 16px;
     filter: grayscale(100%);
+}
+
+#team figure {
+    float: left;
+    width: 15vw;
+    margin-right: 16px;
+    height: min-content;
+}
+
+#team .right figure {
+    float: right;
+    margin-right: 0;
+    margin-left: 2px;
 }
 
 #team h1 {
@@ -10,14 +22,12 @@
 }
 
 .team-member {
-    display: flex;
-    flex-direction: row;
     width: 90vw;
     margin-bottom: 5vh;
 }
 
-#team figure {
-    margin-right: 1vw;
+section {
+    margin-bottom: 0;
 }
 
 .team-description {
@@ -34,15 +44,39 @@
 }
 
 #team-photo-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     margin-bottom: 10px;
+}
+
+#team-photo figure {
+    width: 50vw;
 }
 
 #team-photo img {
     width: 50vw;
     border-radius: 16px;
+}
+
+@media only screen and (max-width: 700px) {
+    .right {
+        display: block;
+    }
+
+    #team img {
+        width: 20vw;
+    }
+    
+    #team figure {
+        width: 20vw;
+        margin-right: 10px;
+        margin-bottom: 2px;
+    }
+
+    .team-description {
+        display: block;
+        max-width: 100%;
+    }
 }
