@@ -265,8 +265,16 @@ footer svg {
     margin-bottom: 10px;
 }
 
+#actions {
+    display: none;
+    flex-direction: row;
+    gap: 4px;
+}
+
 #menu-container {
     display: none;
+    align-items: center;
+    justify-content: center;
     width: 32px;
     height: 32px;
     background-color: var(--secondary);
@@ -277,8 +285,6 @@ footer svg {
     display: none;
     width: 24px;
     height: 24px;
-    fill: var(--primary);
-    color: var(--primary);
 }
 
 #contact {
@@ -287,15 +293,35 @@ footer svg {
     gap: 4px;
 }
 
+#go-back {
+    width: 32px;
+    height: 32px;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#go-back svg {
+    width: 16px;
+    height: 16px;
+    background-color: var(--secondary);
+}
+
 @media only screen and (max-width: 700px) {
     #links {
         display: none;
     }
 
-    #menu-container {
+    #actions {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #menu-container {
+        display: flex;
     }
 
     #menu {
@@ -308,5 +334,22 @@ footer svg {
 
     #contact {
         word-break: break-all;
+    }
+
+    .fake-grid-lanes {
+        columns: 2;
+        column-width: 45vw;
+    }
+
+    .fake-grid-lanes figure {
+        width: 45vw;
+    }
+
+    .fake-grid-lanes figure img {
+        width: 45vw;
+    }
+
+    .by {
+        margin-top: 10px;
     }
 }
