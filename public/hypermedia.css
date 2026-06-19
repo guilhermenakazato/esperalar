@@ -1,8 +1,7 @@
 #hypermedia {
     width: 90vw;
-    height: 100vh;
+    min-height: 100vh;
     margin: auto;
-
     display: flex;
     flex-direction: row;
     align-items: center;
