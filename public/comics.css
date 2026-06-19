@@ -53,7 +53,7 @@ img {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 820px) {
     #small-photos-comics {
         display: grid;
         grid-template: repeat(3, auto) / repeat(2, 45vw);

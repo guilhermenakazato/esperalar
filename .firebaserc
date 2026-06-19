@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "projetoesperalar"
-  }
+    "default": "projetotransmidiaesperal-ee1b8",
+    "master": "esperalarprojeto"
+  },
+  "targets": {},
+  "etags": {}
 }

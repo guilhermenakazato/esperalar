@@ -60,7 +60,7 @@ section {
     border-radius: 16px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 820px) {
     .right {
         display: block;
     }
