@@ -37,8 +37,12 @@
     width: 60vw;
 }
 
-.hypermedia-content figure, .hypermedia-content img {
+.hypermedia-content figure, .hypermedia-content img, iframe {
     width: 50vw;
+}
+
+iframe {
+    height: 60vh;
 }
 
 .hypermedia-content {
@@ -102,8 +106,12 @@
         width: 80vw;
     }
 
-    .hypermedia-content figure, .hypermedia-content img {
+    .hypermedia-content figure, .hypermedia-content img, iframe {
         width: 80vw;
+    }
+
+    iframe {
+        height: 30vh;
     }
 
     .hypermedia-content h1, .hypermedia-content p {
