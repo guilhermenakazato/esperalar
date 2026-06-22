@@ -4,12 +4,19 @@ p {
     font-size: 1.1rem;
 }
 
+h1 {
+    align-self: flex-start; 
+    margin-bottom: 1.5vh;
+}
+
 .bold {
     font-weight: bold;
 }
 
 section {
     justify-content: center;
+    width: 90vw;
+    margin: auto;
 }
 
 iframe {

@@ -9,6 +9,10 @@
     gap: 2vw;
 }
 
+#map {
+    text-decoration: none;
+}
+
 #hypermedia img, #hypermedia figure {
     width: 44vw;
 }
@@ -48,6 +52,10 @@ iframe {
 
 .hypermedia-content {
     border-radius: 16px;
+}
+
+.hypermedia-content div {
+    width: 60vw;
 }
 
 .hypermedia-content a {
@@ -111,7 +119,7 @@ iframe {
         width: 80vw;
     }
 
-    .hypermedia-content figure, .hypermedia-content img, iframe {
+    .hypermedia-content figure, .hypermedia-content img, iframe, .hypermedia-content h1, .hypermedia-content p, .hypermedia-content div {
         width: 80vw;
     }
 
