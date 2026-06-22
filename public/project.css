@@ -17,6 +17,10 @@
     width: 45vw;
 }
 
+#project-text h1 {
+    margin-bottom: 2.5vh;
+}
+
 #project-text p {
     color: black;
     font-size: 1.1rem;

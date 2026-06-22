@@ -296,7 +296,7 @@ footer svg {
     gap: 4px;
 }
 
-#go-back {
+.go-back {
     width: 32px;
     height: 32px;
     background-color: var(--secondary);
@@ -306,7 +306,7 @@ footer svg {
     border-radius: 8px;
 }
 
-#go-back svg {
+.go-back svg {
     width: 16px;
     height: 16px;
     background-color: var(--secondary);
