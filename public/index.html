@@ -7,6 +7,7 @@
     <title>EsperaLar</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="preload" href="./assets/images/logo-sem-cor.avif" as="image" type="image/avif" fetchpriority="high">
 </head>
 
 <body>
@@ -143,7 +144,11 @@
     </header>
 
     <section id="introduction">
-        <img src="./assets/images/logo-sem-cor.png" alt="logo">
+        <picture>
+            <source srcset="./assets/images/logo-sem-cor.avif" type="image/avif">
+            <source srcset="./assets/images/logo-com-cor.webp" type="image/webp">
+            <img src="./assets/images/logo-sem-cor.png" alt="logo">
+        </picture>
         <p>É um Projeto Transmídia que narra histórias de pessoas que, por meio da adoção responsável, ganharam não
             apenas um animal de estimação, mas um novo membro na família. <br />A ideia é apresentar o tema a partir de
             diferentes plataformas, explorando múltiplas linguagens para ampliar o alcance das histórias e conscientizar
@@ -153,45 +158,77 @@
     <section id="gallery">
         <div class="grid">
             <figure>
-                <img src="./assets/images/index/foto1-início.jpg" alt="Foto 1">
+                <picture>
+                    <source srcset="./assets/images/index/foto1-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto1-início.webp" type="image/webp">
+                    <img src="./assets/images/index/foto1-início.jpg" alt="Foto 1" loading="lazy">
+                </picture>
                 <figcaption>
                     Foto: Vitória Santos
                 </figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/index/foto2-início.jpg" alt="Foto 2">
+                <picture>
+                    <source srcset="./assets/images/index/foto2-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto2-início.webp" type="image/webp">
+                    <img src="./assets/images/index/foto2-início.jpg" alt="Foto 2" loading="lazy">
+                </picture>
                 <figcaption>
                     Foto: Maria Santos
                 </figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/index/foto3-início.jpg" alt="Foto 3">
+                <picture>
+                    <source srcset="./assets/images/index/foto3-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto3-início.webp" type="image/webp">
+                    <img src="./assets/images/index/foto3-início.jpg" alt="Foto 3" loading="lazy">
+                </picture>
                 <figcaption>
                     Foto: Maria Santos
                 </figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/index/foto4-início.jpg" alt="Foto 4">
+                <picture>
+                    <source srcset="./assets/images/index/foto4-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto4-início.webp" type="image/webp">
+                    <img src="./assets/images/index/foto4-início.jpg" alt="Foto 4" loading="lazy">
+                </picture>
                 <figcaption>
                     Foto: Ana Carla Pimenta
                 </figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/index/foto5-início.jpg" alt="Foto 5">
+                <picture>
+                    <source srcset="./assets/images/index/foto5-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto5-início.webp" type="image/webp"> 
+                    <img src="./assets/images/index/foto5-início.jpg" alt="Foto 5" loading="lazy">
+                </picture>
                 <figcaption>
                     Foto: Vitória Santos
                 </figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/index/foto6-início.jpg" alt="Foto 6">
+                <picture>
+                    <source srcset="./assets/images/index/foto6-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto6-início.webp" type="image/webp">
+                    <img src="./assets/images/index/foto6-início.jpg" alt="Foto 6" loading="lazy">
+                </picture>
                 <figcaption>Foto: Maria Santos</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/index/foto7-início.jpg" alt="Foto 7">
+                <picture>
+                    <source srcset="./assets/images/index/foto7-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto7-início.webp" type="image/webp">
+                    <img src="./assets/images/index/foto7-início.jpg" alt="Foto 7" loading="lazy">
+                </picture>
                 <figcaption>Foto: Maria Santos</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/index/foto8-início.jpg" alt="Foto 8">
+                <picture>
+                    <source srcset="./assets/images/index/foto8-início.avif" type="image/avif">
+                    <source srcset="./assets/images/index/foto8-início.webp" type="image/webp">
+                    <img src="./assets/images/index/foto8-início.jpg" alt="Foto 8" loading="lazy">
+                </picture>
                 <figcaption>Foto: Ana Carla Pimenta</figcaption>
             </figure>
         </div>

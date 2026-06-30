@@ -7,6 +7,12 @@
     <title>Quadrinhos</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="comics.css">
+    <link rel="preload" href="./assets/images/comics/foto1-hq.avif" as="image" type="image/avif" fetchpriority="high">
+    <link rel="preload" href="./assets/images/comics/foto2-hq.avif" as="image" type="image/avif" fetchpriority="high">
+    <link rel="preload" href="./assets/images/comics/foto3-hq.avif" as="image" type="image/avif" fetchpriority="high">
+    <link rel="preload" href="./assets/images/comics/foto4-hq.avif" as="image" type="image/avif" fetchpriority="high">
+    <link rel="preload" href="./assets/images/comics/foto5-hq.avif" as="image" type="image/avif" fetchpriority="high">
+    <link rel="preload" href="./assets/images/comics/foto6-hq.avif" as="image" type="image/avif" fetchpriority="high">
 </head>
 
 <body>
@@ -151,30 +157,54 @@
         </p>
         <div id="small-photos-comics">
             <figure>
-                <img src="./assets/images/comics/foto2-hq.jpg" alt="Foto 2">
+                <picture>
+                    <source srcset="./assets/images/comics/foto2-hq.avif" type="image/avif">
+                    <source srcset="./assets/images/comics/foto2-hq.webp" type="image/webp">
+                    <img src="./assets/images/comics/foto2-hq.jpg" alt="Foto 2">
+                </picture>
                 <figcaption>Foto: Maria Santos</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/comics/foto3-hq.jpg" alt="Foto 3">
+                <picture>
+                    <source srcset="./assets/images/comics/foto3-hq.avif" type="image/avif">
+                    <source srcset="./assets/images/comics/foto3-hq.webp" type="image/webp">
+                    <img src="./assets/images/comics/foto3-hq.jpg" alt="Foto 3">
+                </picture>
                 <figcaption>Foto: Maria Santos</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/comics/foto4-hq.jpg" alt="Foto 4">
+                <picture>
+                    <source srcset="./assets/images/comics/foto4-hq.avif" type="image/avif">
+                    <source srcset="./assets/images/comics/foto4-hq.webp" type="image/webp">
+                    <img src="./assets/images/comics/foto4-hq.jpg" alt="Foto 4">
+                </picture>
                 <figcaption>Foto: Vitória Santos</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/comics/foto5-hq.jpg" alt="Foto 5">
+                <picture>
+                    <source srcset="./assets/images/comics/foto5-hq.avif" type="image/avif">
+                    <source srcset="./assets/images/comics/foto5-hq.webp" type="image/webp">
+                    <img src="./assets/images/comics/foto5-hq.jpg" alt="Foto 5">
+                </picture>
                 <figcaption>Foto: Vitória Santos</figcaption>
             </figure>
             <figure>
-                <img src="./assets/images/comics/foto6-hq.jpg" alt="Foto 6">
+                <picture>
+                    <source srcset="./assets/images/comics/foto6-hq.avif" type="image/avif">
+                    <source srcset="./assets/images/comics/foto6-hq.webp" type="image/webp">
+                    <img src="./assets/images/comics/foto6-hq.jpg" alt="Foto 6">
+                </picture>
                 <figcaption>Foto: Vitória Santos</figcaption>
             </figure>
         </div>
 
         <div id="hq-container">
             <figure id="hq">
-                <img src="./assets/images/comics/foto1-hq.jpg" alt="HQs (Foto 1)">
+                <picture>
+                    <source srcset="./assets/images/comics/foto1-hq.avif" type="image/avif">
+                    <source srcset="./assets/images/comics/foto1-hq.webp" type="image/webp">
+                    <img src="./assets/images/comics/foto1-hq.jpg" alt="HQs (Foto 1)">
+                </picture>
             </figure>
             <a id="download-comic" target="_blank" rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1cy8SQ8xreddzqpOZq3wcOMKwdrMmZywt/view?usp=share_link">Baixar
