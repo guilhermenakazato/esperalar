@@ -7,6 +7,9 @@
     <title>Fotos</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="photos.css">
+
+    <link rel="preload" href="./assets/images/photos/foto1-fotos.avif" as="image" type="image/avif" fetchpriority="high">
+    <link rel="preload" href="./assets/images/photos/foto2-fotos.avif" as="image" type="image/avif" fetchpriority="high">
 </head>
 
 <body>
@@ -157,7 +160,11 @@
             <div>
                 <a href="./erick.html">
                     <figure>
-                        <img src="./assets/images/photos/foto1-fotos.jpg" alt="Foto 1">
+                        <picture>
+                            <source srcset="./assets/images/photos/foto1-fotos.avif" type="image/avif">
+                            <source srcset="./assets/images/photos/foto1-fotos.webp" type="image/webp">
+                            <img src="./assets/images/photos/foto1-fotos.jpg" alt="Foto 1">
+                        </picture>
                         <figcaption>
                             <h3>Erick Fernandes</h3>
                             <span>Foto: Vitória Santos</span>
@@ -167,7 +174,11 @@
 
                 <a href="./sergio-nicoli.html">
                     <figure>
-                        <img src="./assets/images/photos/foto2-fotos.jpg" alt="Foto 2">
+                        <picture>
+                            <source srcset="./assets/images/photos/foto2-fotos.avif" type="image/avif">
+                            <source srcset="./assets/images/photos/foto2-fotos.webp" type="image/webp">
+                            <img src="./assets/images/photos/foto2-fotos.jpg" alt="Foto 2">
+                        </picture>
                         <figcaption>
                             <h3>Sérgio Santos e Nicoli Oliveira</h3>
                             <span>Foto: Maria Santos</span>
@@ -178,7 +189,11 @@
             <div>
                 <a href="./subea.html">
                     <figure>
-                        <img src="./assets/images/photos/foto3-fotos.jpg" alt="Foto 3">
+                        <picture>
+                            <source srcset="./assets/images/photos/foto3-fotos.avif" type="image/avif">
+                            <source srcset="./assets/images/photos/foto3-fotos.webp" type="image/webp">
+                            <img src="./assets/images/photos/foto3-fotos.jpg" alt="Foto 3" loading="lazy">
+                        </picture>
                         <figcaption>
                             <h3>Subea</h3>
                             <span>Foto: Vitória Santos</span>
@@ -189,7 +204,11 @@
             <div>
                 <a href="./daniela-catarina.html">
                     <figure>
-                        <img src="./assets/images/photos/foto4-fotos.jpg" alt="Foto 4">
+                        <picture>
+                            <source srcset="./assets/images/photos/foto4-fotos.avif" type="image/avif">
+                            <source srcset="./assets/images/photos/foto4-fotos.webp" type="image/webp">
+                            <img src="./assets/images/photos/foto4-fotos.jpg" alt="Foto 4" loading="lazy">
+                        </picture>
                         <figcaption>
                             <h3>Daniela Loureiro e Isabela Catarina</h3>
                             <span>Foto: Maria Santos</span>
@@ -199,7 +218,11 @@
 
                 <a href="./keli-carla.html">
                     <figure>
-                        <img src="./assets/images/photos/foto5-fotos.jpg" alt="Foto 5">
+                        <picture>
+                            <source srcset="./assets/images/photos/foto5-fotos.avif" type="image/avif">
+                            <source srcset="./assets/images/photos/foto5-fotos.webp" type="image/webp">
+                            <img src="./assets/images/photos/foto5-fotos.jpg" alt="Foto 5" loading="lazy">
+                        </picture>
                         <figcaption>
                             <h3>Carla Patrícia e Keli Roberta</h3>
                             <span>Foto: Theoangelo Cruz</span>
